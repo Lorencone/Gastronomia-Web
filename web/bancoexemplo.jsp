@@ -10,11 +10,13 @@
         <%
             try
             {
-                Class.forName("con.mysql.jdbc.Driver");
+                Class.forName("com.mysql.jdbc.Driver");
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet", "root", "");
+            out.println("Conectado ...");
             }catch(SQLException e){
-                out.println("Falha no Banco de Dados: "+ e.getMessage());
+                out.println("Falha no banco de Dados:" +e.getMessage());
             }
         %>
+        
     </body>
 </html>
