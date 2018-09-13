@@ -70,8 +70,8 @@
                 %>
             </table>
             <form>
-                <a class='btn btn-warning' href='././InsertCardapio'>Inserir</a>
-                <a class='btn btn-danger' href='././MenuServlet'>Voltar</a>
+                <a class='btn btn-warning' href='../Gastronomia/InsertCardapio.jsp'>Inserir</a>
+                <a class='btn btn-danger' href='../Gastronomia/Index.jsp'>Voltar</a>
             </form>                    
         </div>
     </body>
