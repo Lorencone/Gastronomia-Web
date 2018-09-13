@@ -39,6 +39,10 @@
                     %>
                         <tr>
                             <td>
+                                <a class='btn' href='../Gastronomia/InsertCardapio.jsp'>Alterar</a>
+                                <a class='btn' href='../Gastronomia/InsertCardapio.jsp'>Excluir</a>
+                            </td>
+                            <td>
                                 <%
                                     out.println(rs.getInt("id_cardapio"));
                                 %>
@@ -70,8 +74,8 @@
                 %>
             </table>
             <form>
-                <a class='btn btn-warning' href='../Gastronomia/InsertCardapio.jsp'>Inserir</a>
-                <a class='btn btn-danger' href='../Gastronomia/Index.jsp'>Voltar</a>
+                <a class='btn' href='../Gastronomia/InsertCardapio.jsp'>Inserir</a>
+                <a class='btn' href='../Gastronomia/Index.jsp'>Voltar</a>
             </form>                    
         </div>
     </body>

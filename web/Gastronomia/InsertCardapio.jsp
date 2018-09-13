@@ -6,6 +6,22 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class='container'>
+            <h1>Cadastro</h1>
+            <form class='form-horizontal' action='InsertCategoria' method='POST'>
+                <div class='form-group'>
+                    <label for='nome' class='col-sm-2 control-label'>Nome</label>
+                    <div class='col-sm-10'>
+                        <input type='text' class='form-control' id='nome' name='nome'/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for='descricao' class='col-sm-2 control-label'>Descrição</label>
+                    <div class='col-sm-10'>
+                        <input type='text' class='form-control' id='descricao' name='descricao'/>
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
